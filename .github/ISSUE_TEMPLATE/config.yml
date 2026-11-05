@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and general chat
+    url: https://github.com/rawdata369/macdeficit-app/discussions
+    about: Ask anything about Mac Deficit or just say hi.

@@ -1,0 +1,17 @@
+name: Feedback or idea
+description: Something you saw here, or an idea for Mac Deficit
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for following Mac Deficit. There's no public build yet, so this is for feedback on what we've shown and ideas for where it goes.
+  - type: textarea
+    id: what
+    attributes:
+      label: What's on your mind?
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Which screenshot, section or feature is it about? (optional)
