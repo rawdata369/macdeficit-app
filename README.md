@@ -16,11 +16,12 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 - **Private by design**: everything stays on your Mac. No accounts, no analytics, no telemetry
 
 ## What's Built So Far
-- Every drive on the Mac with its capacity and free space
-- A fast scan (an external drive of 350,000 files in under seven seconds), cancellable at any time
-- A sorted file list with breadcrumb navigation
-- The first Apple Treemap: colour by file type, hover, drill-down, a legend
-- A clear Full Disk Access flow: the app explains what it needs and opens the right System Settings page
+- **A native Mac app**, rebuilt in Swift: pick a drive or any folder, watch the scan count up with a Cancel button, then browse the results folder by folder, largest first, with Reveal in Finder
+- Every drive as Finder sees it: its real name, capacity and free space, marked startup, internal, external or network
+- A fast scan on every processor core: a whole internal drive of 1.9 million files and folders in about eight seconds, using about half a gigabyte of memory
+- Sizes you can trust: the space files really take, hard-linked files counted once, shown in the same units as Finder
+- Full Disk Access asked for, never assumed: the app explains why it helps and opens the right System Settings page, or carries on with limited access and lists every place it could not read
+- The first Apple Treemap (in the earlier build): colour by file type, hover, drill-down, a legend
 
 ## Roadmap
 | Phase | Status |
@@ -29,7 +30,7 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 | The Scanner | Complete · December 2025 |
 | Seeing Your Drive | Complete · December 2025 |
 | The Apple Treemap | First version · December 2025 |
-| Audit and Overhaul | In progress · code review done, native Swift interface chosen |
+| Audit and Overhaul | In progress · scanner rebuilt (4× faster, half the memory), native Mac app running |
 | Clearing Space (Trash, Reveal in Finder) | Next |
 | Polish and Release | Planned |
 
