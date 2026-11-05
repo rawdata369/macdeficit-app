@@ -17,7 +17,7 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 
 ## What's Built So Far
 - Every drive on the Mac with its capacity and free space
-- A fast parallel scan (an external drive of 350,000 files in under seven seconds), cancellable at any time
+- A fast scan (an external drive of 350,000 files in under seven seconds), cancellable at any time
 - A sorted file list with breadcrumb navigation
 - The first Apple Treemap: colour by file type, hover, drill-down, a legend
 - A clear Full Disk Access flow: the app explains what it needs and opens the right System Settings page
@@ -29,7 +29,7 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 | The Scanner | Complete · December 2025 |
 | Seeing Your Drive | Complete · December 2025 |
 | The Apple Treemap | First version · December 2025 |
-| Audit and Overhaul | In progress |
+| Audit and Overhaul | In progress · code review done, native Swift interface chosen |
 | Clearing Space (Trash, Reveal in Finder) | Next |
 | Polish and Release | Planned |
 
