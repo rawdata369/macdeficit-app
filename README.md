@@ -18,10 +18,10 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 ## What's Built So Far
 - **Clear space safely**: right-click anything in the list or the apple and move it to the Trash, with its size shown first; the space it held leaves the totals at once. Changed your mind? Put Back returns it with one click
 - **What your Mac needs is never offered**: macOS's own files and data, folders macOS protects for your privacy, your home folder and its standard folders. Mac Deficit says why
-- **The Apple Treemap in the native app**: your drive drawn as an apple, next to the list and always on the same folder. The apple is filled edge to edge with rounded cells, one for each folder and file, the biggest in the middle where the apple is widest, the apple's red running between them; the tiniest items share one cell, so every cell is big enough to point at. Folders take the colour of what fills them; hover for a cell's name, size and share, click a folder to go inside
+- **The Apple Treemap in the native app**: your drive drawn as an apple, round with a stem and a leaf and light falling across it, next to the list and always on the same folder. The apple is filled edge to edge with rounded cells, one for each folder and file, the biggest in the middle where the apple is widest, the apple's red running between them; the tiniest items share one cell, so every cell is big enough to point at. Folders take the colour of what fills them; hover for a cell's name, size and share, click a folder to go inside
 - **One app, fully native**: the first interface, built while the scanner was proven, is retired; Mac Deficit is now the Swift app
 - **A native Mac app**, rebuilt in Swift: pick a drive or any folder, watch the scan count up with a Cancel button, then browse the results folder by folder, largest first, with Reveal in Finder
-- Every drive as Finder sees it: its real name, capacity and free space, marked startup, internal, external or network
+- **Your drives as apples**: each drive shown as an apple filled from the bottom as far as it is used, so a full drive stands out from an empty one at a glance; with its real name, capacity and free space as Finder sees them, marked startup, internal, external or network
 - A fast scan on every processor core: a whole internal drive of 1.9 million files and folders in about eight seconds, using about half a gigabyte of memory
 - Sizes you can trust: the space files really take, hard-linked files counted once, shown in the same units as Finder
 - Full Disk Access asked for, never assumed: the app explains why it helps and opens the right System Settings page, or carries on with limited access and lists every place it could not read
@@ -38,8 +38,8 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 | Foundations | Complete · December 2025 |
 | The Scanner | Complete · December 2025 |
 | Seeing Your Drive | Complete · December 2025 |
-| The Apple Treemap | In the native app · November 2026: the apple filled with cells, the biggest in the middle; an apple that looks like one next |
-| Audit and Overhaul | Nearly complete · November 2026: scanner rebuilt (4× faster, half the memory), one native Mac app with its Apple Treemap, checked with VoiceOver; the app icon left |
+| The Apple Treemap | In the native app · November 2026: a real-looking apple filled with cells, the biggest in the middle; the drives shown as apples |
+| Audit and Overhaul | Complete · November 2026: scanner rebuilt (4× faster, half the memory), one native Mac app with its Apple Treemap, checked with VoiceOver, and its own icon: the drive apple, two thirds full |
 | Clearing Space (Trash, Reveal in Finder) | Under way · November 2026: Reveal in Finder, Move to Trash with its size first, Put Back; clearing several things at once next |
 | Polish and Release | Planned |
 
