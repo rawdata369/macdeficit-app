@@ -1,1 +1,1 @@
-Work-in-progress captures from the current build go here (from the private repo's rdsync/ownerScreens/, chosen by the owner).
+Captures from the current build of Mac Deficit, taken in dark mode on a Retina display.

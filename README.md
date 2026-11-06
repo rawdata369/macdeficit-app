@@ -30,8 +30,19 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 - VoiceOver throughout, checked screen by screen: the drives, the list, every cell of the apple read largest first, and every action
 
 ## From the Build
-![The native app: a whole drive in a list and as an Apple Treemap](media/apple-treemap-native.png)
-*The native app after a whole-drive scan: 305 GB in 1.7 million files, as a list and as an Apple Treemap. November 2026, work in progress.*
+![A home folder as an apple: each cell a folder, coloured by the kind of file that fills it](media/home-folder-apple.png)
+*A home folder drawn as an apple: each cell a folder, coloured by the kind of file that fills it, beside the list largest first.*
+
+<p>
+  <img src="media/drives-as-apples.png" width="49%" alt="Every drive on the Mac as an apple, filled as far as the drive is used">
+  <img src="media/whole-disk-scan.png" width="49%" alt="A whole startup disk, 1.7 million files, scanned in 7.7 seconds">
+</p>
+<p>
+  <img src="media/move-to-trash.png" width="49%" alt="Move to Trash shows what it frees first, and it can always be put back">
+  <img src="media/never-offered.png" width="49%" alt="A folder macOS or your account depends on is never offered, and the app says why">
+</p>
+
+*Your drives as apples; a whole startup disk scanned in 7.7 seconds; Move to Trash with its size first; and a folder your Mac needs, refused with the reason. November 2026, work in progress.*
 
 ## Roadmap
 | Phase | Status |
