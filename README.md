@@ -18,7 +18,7 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 ## What's Built So Far
 - **Clear space safely**: right-click anything in the list or the apple and move it to the Trash, with its size shown first; the space it held leaves the totals at once. Changed your mind? Put Back returns it with one click
 - **What your Mac needs is never offered**: macOS's own files and data, folders macOS protects for your privacy, your home folder and its standard folders. Mac Deficit says why
-- **The Apple Treemap in the native app**: your drive drawn as blocks inside an apple, next to the list and always on the same folder. Folders take the colour of what fills them; hover for a block's name, size and share, click a folder to go inside
+- **The Apple Treemap in the native app**: your drive drawn as blocks inside an apple, next to the list and always on the same folder. Every block is laid out inside the apple's curve, so no name or size is cut off. Folders take the colour of what fills them; hover for a block's name, size and share, click a folder to go inside
 - **One app, fully native**: the first interface, built while the scanner was proven, is retired; Mac Deficit is now the Swift app
 - **A native Mac app**, rebuilt in Swift: pick a drive or any folder, watch the scan count up with a Cancel button, then browse the results folder by folder, largest first, with Reveal in Finder
 - Every drive as Finder sees it: its real name, capacity and free space, marked startup, internal, external or network
@@ -38,7 +38,7 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 | Foundations | Complete · December 2025 |
 | The Scanner | Complete · December 2025 |
 | Seeing Your Drive | Complete · December 2025 |
-| The Apple Treemap | In the native app · November 2026; blocks shaped to the apple next |
+| The Apple Treemap | In the native app · November 2026: every block inside the apple; an apple that looks like one next |
 | Audit and Overhaul | Nearly complete · November 2026: scanner rebuilt (4× faster, half the memory), one native Mac app with its Apple Treemap, checked with VoiceOver; the app icon left |
 | Clearing Space (Trash, Reveal in Finder) | Under way · November 2026: Reveal in Finder, Move to Trash with its size first, Put Back; clearing several things at once next |
 | Polish and Release | Planned |
