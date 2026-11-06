@@ -39,7 +39,7 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 | The Scanner | Complete · December 2025 |
 | Seeing Your Drive | Complete · December 2025 |
 | The Apple Treemap | In the native app · November 2026: a real-looking apple filled with cells, the biggest in the middle; the drives shown as apples |
-| Audit and Overhaul | Complete · November 2026: scanner rebuilt (4× faster, half the memory), one native Mac app with its Apple Treemap, checked with VoiceOver, and its own icon: the drive apple, two thirds full |
+| Audit and Overhaul | Complete · November 2026: scanner rebuilt (4× faster, half the memory), one native Mac app with its Apple Treemap, checked with VoiceOver, and its own icon: an apple ripening from gold to red |
 | Clearing Space (Trash, Reveal in Finder) | Under way · November 2026: Reveal in Finder, Move to Trash with its size first, Put Back; clearing several things at once next |
 | Polish and Release | Planned |
 
