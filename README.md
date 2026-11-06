@@ -17,6 +17,7 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 
 ## What's Built So Far
 - **Clear space safely**: right-click anything in the list or the apple and move it to the Trash, with its size shown first; the space it held leaves the totals at once. Changed your mind? Put Back returns it with one click
+- **Stays up to date**: change something in Finder after a scan, or put a folder back from the Trash there, and Mac Deficit notices. A quiet note offers Refresh, which catches up in a moment without scanning everything again, and the apple keeps its shape. Or rescan the folder you are looking at with ⌘R
 - **What your Mac needs is never offered**: macOS's own files and data, folders macOS protects for your privacy, your home folder and its standard folders. Mac Deficit says why
 - **The Apple Treemap in the native app**: your drive drawn as an apple, round with a stem and a leaf and light falling across it, next to the list and always on the same folder. The apple is filled edge to edge with rounded cells, one for each folder and file, the biggest in the middle where the apple is widest, the apple's red running between them; the tiniest items share one cell, so every cell is big enough to point at. Folders take the colour of what fills them; hover for a cell's name, size and share, click a folder to go inside
 - **One app, fully native**: the first interface, built while the scanner was proven, is retired; Mac Deficit is now the Swift app
@@ -40,7 +41,7 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 | Seeing Your Drive | Complete · December 2025 |
 | The Apple Treemap | In the native app · November 2026: a real-looking apple filled with cells, the biggest in the middle; the drives shown as apples |
 | Audit and Overhaul | Complete · November 2026: scanner rebuilt (4× faster, half the memory), one native Mac app with its Apple Treemap, checked with VoiceOver, and its own icon: an apple ripening from gold to red |
-| Clearing Space (Trash, Reveal in Finder) | Under way · November 2026: Reveal in Finder, Move to Trash with its size first, Put Back; clearing several things at once next |
+| Clearing Space (Trash, Reveal in Finder) | Under way · November 2026: Reveal in Finder, Move to Trash with its size first, Put Back, and changes made in Finder noticed with one-click Refresh; clearing several things at once next |
 | Polish and Release | Planned |
 
 ## Get Involved
