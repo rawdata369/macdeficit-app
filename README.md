@@ -16,18 +16,17 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 - **Private by design**: everything stays on your Mac. No accounts, no analytics, no telemetry
 
 ## What's Built So Far
-- **Clear space safely**: right-click anything in the list or the apple and move it to the Trash, with its size shown first; the space it held leaves the totals at once. Changed your mind? Put Back returns it with one click
-- **Stays up to date**: change something in Finder after a scan, or put a folder back from the Trash there, and Mac Deficit notices. A quiet note offers Refresh, which catches up in a moment without scanning everything again, and the apple keeps its shape. Or rescan the folder you are looking at with ⌘R
-- **What your Mac needs is never offered**: macOS's own files and data, folders macOS protects for your privacy, your home folder and its standard folders. Mac Deficit says why
-- **The Apple Treemap in the native app**: your drive drawn as an apple, round with a stem and a leaf and light falling across it, next to the list and always on the same folder. The apple is filled edge to edge with rounded cells, one for each folder and file, the biggest in the middle where the apple is widest, the apple's red running between them; the tiniest items share one cell, so every cell is big enough to point at. Folders take the colour of what fills them; hover for a cell's name, size and share, click a folder to go inside
-- **One app, fully native**: the first interface, built while the scanner was proven, is retired; Mac Deficit is now the Swift app
-- **A native Mac app**, rebuilt in Swift: pick a drive or any folder, watch the scan count up with a Cancel button, then browse the results folder by folder, largest first, with Reveal in Finder
-- **Your drives as apples**: each drive shown as an apple filled from the bottom as far as it is used, so a full drive stands out from an empty one at a glance; with its real name, capacity and free space as Finder sees them, marked startup, internal, external or network
-- A fast scan on every processor core: a whole internal drive of 1.9 million files and folders in about eight seconds, using about half a gigabyte of memory
-- Sizes you can trust: the space files really take, hard-linked files counted once, shown in the same units as Finder
-- Full Disk Access asked for, never assumed: the app explains why it helps and opens the right System Settings page, or carries on with limited access and lists every place it could not read
-- If the app ever stops unexpectedly, it says so the next time it opens and shows you the report. The report, like the app's log, stays on your Mac, with your file names kept private
-- VoiceOver throughout, checked screen by screen: the drives, the list, every cell of the apple read largest first, and every action
+- **Your drives as apples**: every drive on the Mac shown as an apple filled from the bottom as far as it is used, so a full drive stands out from an empty one at a glance; with its name, capacity and free space as Finder sees them. Plug in or eject a drive and the list follows. Folders you scanned lately are one click away
+- **A fast scan on every processor core**: a whole internal drive of 1.8 million files and 240,000 folders in under nine seconds, using about half a gigabyte of memory. While it scans, the drive's apple fills and a card tells what the drive is, how it is connected, its format, and how fast it is reading and writing
+- **Sizes you can trust**: the space files really take, with hard-linked files and copies that share their space counted once, in decimal units as Finder or binary units as Terminal. After a whole-drive scan, a button shows where the drive's used space went: what was found, macOS's own volumes, what could not be read, and the purgeable space macOS frees when it needs room
+- **The Apple Treemap**: your drive drawn as an apple, round with a stem and a leaf and light falling across it, beside the list and always on the same folder. Rounded cells fill it edge to edge, one for each folder and file, the biggest in its body and the smallest toward the tip; folders take the colour of what fills them. Hover for a cell's name, size and share, click a folder to go inside
+- **Find anything**: type a name and see every match below the folder you are in, largest first, with where each one is and the space they take together; pick a kind (folders, files, videos, documents and more), or a kind alone to see the largest of that kind anywhere on the drive
+- **Clear space safely**: choose one item or several, in the list or the apple, and move them to the Trash with their total shown first; Put Back returns them with one click. Or delete immediately when you are sure, with the size first and Return cancelling. When another name or copy still holds a file's data, Mac Deficit says how much space really comes back
+- **What your Mac needs is never offered**: macOS's own files and data, your home folder and its standard folders, and everything macOS protects for your privacy (your contacts, calendars, reminders, notes, messages, mail and Photos library). Mac Deficit says why
+- **Stays up to date**: change something in Finder after a scan and Mac Deficit notices; a quiet note offers Refresh, which catches up without scanning everything again, with its progress and Cancel. It speaks up only when enough has changed, so macOS writing its own logs and caches does not set it off
+- **Full Disk Access asked for, never assumed**: the app explains why it helps and opens the right System Settings page, or carries on with limited access and lists every place it could not read
+- **Made to be yours**: light or dark, decimal or binary sizes, the recent scans it keeps; the window and the list's width stay as you left them. VoiceOver throughout: the drives, the list, every cell of the apple and every action
+- **Private by design**: nothing leaves your Mac. If the app ever stops unexpectedly, it says so the next time it opens and shows you the report, which stays on your Mac
 
 ## From the Build
 ![A home folder as an apple: each cell a folder, coloured by the kind of file that fills it](media/home-folder-apple.png)
@@ -35,14 +34,29 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 
 <p>
   <img src="media/drives-as-apples.png" width="49%" alt="Every drive on the Mac as an apple, filled as far as the drive is used">
-  <img src="media/whole-disk-scan.png" width="49%" alt="A whole startup disk, 1.7 million files, scanned in 7.7 seconds">
+  <img src="media/drive-stats.png" width="49%" alt="While a drive is scanned, its apple fills and a card tells what the drive is and how fast it reads">
 </p>
 <p>
-  <img src="media/move-to-trash.png" width="49%" alt="Move to Trash shows what it frees first, and it can always be put back">
-  <img src="media/never-offered.png" width="49%" alt="A folder macOS or your account depends on is never offered, and the app says why">
+  <img src="media/whole-disk-scan.png" width="49%" alt="A whole startup disk, 1.8 million files, scanned in 8.7 seconds">
+  <img src="media/drive-space.png" width="49%" alt="Where the drive's used space went: found, macOS, purgeable, free">
 </p>
 
-*Your drives as apples; a whole startup disk scanned in 7.7 seconds; Move to Trash with its size first; and a folder your Mac needs, refused with the reason. November 2026, work in progress.*
+*Your drives as apples; a scan with the drive's own details and speed; a whole startup disk in 8.7 seconds; and where its used space went.*
+
+<p>
+  <img src="media/search.png" width="49%" alt="Search by name and kind: every cache folder on the drive, largest first">
+  <img src="media/several-at-once.png" width="49%" alt="Several items chosen at once, outlined in the list and the apple">
+</p>
+<p>
+  <img src="media/move-to-trash.png" width="49%" alt="One confirmation with the total before anything moves to the Trash">
+  <img src="media/never-offered.png" width="49%" alt="A folder macOS protects for your privacy is never offered, and the app says why">
+</p>
+<p>
+  <img src="media/changed-on-disk.png" width="49%" alt="A change made in Finder noticed, with Refresh to catch up">
+  <img src="media/settings.png" width="49%" alt="Settings: appearance, size units, recent scans">
+</p>
+
+*Search anywhere below a folder; several things chosen at once and moved to the Trash with their total first; a private folder refused with the reason; a change made in Finder noticed; and Settings. November 2026, work in progress.*
 
 ## Roadmap
 | Phase | Status |
@@ -50,10 +64,10 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 | Foundations | Complete · December 2025 |
 | The Scanner | Complete · December 2025 |
 | Seeing Your Drive | Complete · December 2025 |
-| The Apple Treemap | In the native app · November 2026: a real-looking apple filled with cells, the biggest in the middle; the drives shown as apples |
+| The Apple Treemap | Complete · November 2026: a real-looking apple filled with cells, the biggest in its body, tapering to the tip; the drives shown as apples |
 | Audit and Overhaul | Complete · November 2026: scanner rebuilt (4× faster, half the memory), one native Mac app with its Apple Treemap, checked with VoiceOver, and its own icon: an apple ripening from gold to red |
-| Clearing Space (Trash, Reveal in Finder) | Under way · November 2026: Reveal in Finder, Move to Trash with its size first, Put Back, and changes made in Finder noticed with one-click Refresh; clearing several things at once next |
-| Polish and Release | Planned |
+| Clearing Space (Trash, Reveal in Finder) | Complete · November 2026: Reveal in Finder, Move to Trash with its size first and Put Back, several things at once, Delete Immediately, changes made in Finder noticed with one-click Refresh, and everything macOS protects for your privacy kept safe |
+| Polish and Release | Under way · November 2026: drives that come and go, settings, search, where a drive's space went, drive details while scanning, and an App Store edition; a code review and cleanup before release; a signed, notarized app next |
 
 ## Get Involved
 - **Questions, ideas, or just want to say hi?** Start a thread in [Discussions](../../discussions).

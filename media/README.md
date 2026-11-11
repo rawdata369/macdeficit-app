@@ -1,1 +1,1 @@
-Captures from the current build of Mac Deficit, taken in dark mode on a Retina display.
+Captures from the current build of Mac Deficit (November 2026), taken in light mode on a Retina display.
