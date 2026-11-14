@@ -1,6 +1,6 @@
 # Mac Deficit
 
-***Where did my space go?*** A disk space analyzer for the Mac, by [RawData Studio](https://rawdata.cloud).
+***Where did my space go?*** A disk space analyzer for the Mac, by [RawData Studio](https://rawdata.cloud). Its own site: [macdeficit.com](https://macdeficit.com).
 
 Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, and lets you clear it safely. It is built for Macs on Apple Silicon, and for anyone who has watched a 256 GB or 512 GB drive fill up and found macOS's own Storage panel no help.
 
