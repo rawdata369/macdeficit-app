@@ -4,9 +4,9 @@
 
 Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, and lets you clear it safely. It is built for Macs on Apple Silicon, and for anyone who has watched a 256 GB or 512 GB drive fill up and found macOS's own Storage panel no help.
 
-**In development** · No release date yet
+**Version 1.0 is out** · [Buy it at macdeficit.com](https://macdeficit.com/#get): $3.99 for you, $9.99 for a household of up to three · Apple Silicon, macOS 14 or later
 
-> This repository is Mac Deficit's public home: screenshots, progress, and a place for your questions and ideas. The app's source code is private while we build it.
+> This repository is Mac Deficit's public home: screenshots, progress, and a place for your questions and ideas. The app's source code is private.
 
 ## The Idea
 - **See it at once**: your main drive's health the moment the app opens, external drives a click away
@@ -67,7 +67,7 @@ Mac Deficit shows you, the moment it opens, what is filling your Mac's drive, an
 | The Apple Treemap | Complete · November 2026: a real-looking apple filled with cells, the biggest in its body, tapering to the tip; the drives shown as apples |
 | Audit and Overhaul | Complete · November 2026: scanner rebuilt (4× faster, half the memory), one native Mac app with its Apple Treemap, checked with VoiceOver, and its own icon: an apple ripening from gold to red |
 | Clearing Space (Trash, Reveal in Finder) | Complete · November 2026: Reveal in Finder, Move to Trash with its size first and Put Back, several things at once, Delete Immediately, changes made in Finder noticed with one-click Refresh, and everything macOS protects for your privacy kept safe |
-| Polish and Release | Under way · November 2026: drives that come and go, settings, search, where a drive's space went, drive details while scanning, and an App Store edition; a code review and cleanup before release; a signed, notarized app next |
+| Polish and Release | Under way · November 2026: drives that come and go, settings, search, where a drive's space went, drive details while scanning, and an App Store edition; a code review and cleanup before release; a signed, notarized app; version 1.0 on sale at macdeficit.com (November 2026); the Mac App Store next |
 
 ## Get Involved
 - **Questions, ideas, or just want to say hi?** Start a thread in [Discussions](../../discussions).
